@@ -125,5 +125,10 @@
     "prefix": "py-doc",
     "body": "\"\"\"\n${1:Summary}\n\nArgs:\n    $2\nReturns:\n    $3\n\"\"\"",
     "description": "Function docstring template"
+   },
+  "/usr/bin/env": {
+    "prefix": "env",
+    "body": "#! /usr/bin/env ${1:...}",
+    "description": "shabeng to run scripts"
   }
 }
